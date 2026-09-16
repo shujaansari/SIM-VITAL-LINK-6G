@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "seed": 2026,
+    "iterations": 180,
+    "trials_per_condition": 12,
+    "training_bmis": [
+      18.0,
+      22.0,
+      26.0,
+      30.0,
+      34.0,
+      38.0
+    ],
+    "snr_values_db": [
+      -10.0,
+      -5.0,
+      0.0,
+      5.0,
+      10.0,
+      15.0
+    ],
+    "phase_bits": [
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "depths": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "bmi_offsets": [
+      -8.0,
+      -4.0,
+      0.0,
+      4.0,
+      8.0
+    ],
+    "evaluation_snr_db": 8.0,
+    "insertion_loss_db_per_layer": 0.5
+  },
+  "studies": {
+    "snr": [
+      {
+        "snr_db": -10.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 12.543412325561334,
+        "heart_rmse_bpm": 25.409810722030702
+      },
+      {
+        "snr_db": -10.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 11.893580462062397,
+        "heart_rmse_bpm": 21.399699724180845
+      },
+      {
+        "snr_db": -10.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 11.888317848007866,
+        "heart_rmse_bpm": 24.205460507357007
+      },
+      {
+        "snr_db": -10.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 12.253992695587042,
+        "heart_rmse_bpm": 23.140143086206
+      },
+      {
+        "snr_db": -10.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 11.207761250208508,
+        "heart_rmse_bpm": 28.53011851643554
+      },
+      {
+        "snr_db": -5.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 12.201368347052073,
+        "heart_rmse_bpm": 25.675857402541823
+      },
+      {
+        "snr_db": -5.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 7.367996830950058,
+        "heart_rmse_bpm": 18.49900657504818
+      },
+      {
+        "snr_db": -5.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 9.81141067705837,
+        "heart_rmse_bpm": 23.191828638004534
+      },
+      {
+        "snr_db": -5.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 8.456718768621336,
+        "heart_rmse_bpm": 21.503685584316756
+      },
+      {
+        "snr_db": -5.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 7.696253532533416,
+        "heart_rmse_bpm": 20.39438645731499
+      },
+      {
+        "snr_db": 0.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 13.562213391742477,
+        "heart_rmse_bpm": 26.032215057171076
+      },
+      {
+        "snr_db": 0.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 3.2413610783116678,
+        "heart_rmse_bpm": 10.376945717310672
+      },
+      {
+        "snr_db": 0.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 3.7101589451351558,
+        "heart_rmse_bpm": 17.277562884558957
+      },
+      {
+        "snr_db": 0.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 4.6154183064146865,
+        "heart_rmse_bpm": 14.75872502046812
+      },
+      {
+        "snr_db": 0.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 1.6190572866842903,
+        "heart_rmse_bpm": 10.264261360642758
+      },
+      {
+        "snr_db": 5.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 10.903104917784683,
+        "heart_rmse_bpm": 24.03821358134439
+      },
+      {
+        "snr_db": 5.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.049295687855519355,
+        "heart_rmse_bpm": 1.2252335925263906
+      },
+      {
+        "snr_db": 5.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.05986652549323862,
+        "heart_rmse_bpm": 3.206342153234626
+      },
+      {
+        "snr_db": 5.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 2.880272121670807,
+        "heart_rmse_bpm": 4.667510664547609
+      },
+      {
+        "snr_db": 5.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.04675454082131786,
+        "heart_rmse_bpm": 0.11624734714649347
+      },
+      {
+        "snr_db": 10.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 14.349475600110997,
+        "heart_rmse_bpm": 24.776752350572732
+      },
+      {
+        "snr_db": 10.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.04703604135470457,
+        "heart_rmse_bpm": 0.08139423547233261
+      },
+      {
+        "snr_db": 10.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.048374037129738534,
+        "heart_rmse_bpm": 0.12655538845896705
+      },
+      {
+        "snr_db": 10.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 0.04785894937313163,
+        "heart_rmse_bpm": 1.6855642814123015
+      },
+      {
+        "snr_db": 10.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.046850461229073014,
+        "heart_rmse_bpm": 0.06534928438065883
+      },
+      {
+        "snr_db": 15.0,
+        "method": "No intelligent surface",
+        "respiration_rmse_bpm": 15.44920321632891,
+        "heart_rmse_bpm": 25.471500455757294
+      },
+      {
+        "snr_db": 15.0,
+        "method": "Digital MVDR array (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.04693734758561099,
+        "heart_rmse_bpm": 0.06001721148087943
+      },
+      {
+        "snr_db": 15.0,
+        "method": "1-layer RIS (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.04678897219335176,
+        "heart_rmse_bpm": 0.10675674226616855
+      },
+      {
+        "snr_db": 15.0,
+        "method": "3-layer SIM (universal)",
+        "respiration_rmse_bpm": 0.04674352703775652,
+        "heart_rmse_bpm": 0.05632085398709489
+      },
+      {
+        "snr_db": 15.0,
+        "method": "3-layer SIM (BMI-adaptive)",
+        "respiration_rmse_bpm": 0.04682816273740228,
+        "heart_rmse_bpm": 0.051641047253615575
+      }
+    ],
+    "quantization": [
+      {
+        "phase_bits": "continuous",
+        "method": "Continuous phase",
+        "spatial_sinr_db": 9.252973202612607,
+        "respiration_rmse_bpm": 0.04742031095626523,
+        "heart_rmse_bpm": 0.0778584707002218
+      },
+      {
+        "phase_bits": 1,
+        "method": "1-bit phase",
+        "spatial_sinr_db": -5.6292065311624535,
+        "respiration_rmse_bpm": 6.880113499963997,
+        "heart_rmse_bpm": 25.63300470166307
+      },
+      {
+        "phase_bits": 2,
+        "method": "2-bit phase",
+        "spatial_sinr_db": -6.143782478790318,
+        "respiration_rmse_bpm": 11.393607163284706,
+        "heart_rmse_bpm": 23.923162997520492
+      },
+      {
+        "phase_bits": 3,
+        "method": "3-bit phase",
+        "spatial_sinr_db": 1.501401330723418,
+        "respiration_rmse_bpm": 0.7560181265347858,
+        "heart_rmse_bpm": 5.614924008635878
+      },
+      {
+        "phase_bits": 4,
+        "method": "4-bit phase",
+        "spatial_sinr_db": 5.697390980765111,
+        "respiration_rmse_bpm": 0.054599316186871284,
+        "heart_rmse_bpm": 1.9132273011392735
+      },
+      {
+        "phase_bits": 6,
+        "method": "6-bit phase",
+        "spatial_sinr_db": 8.9992902351672,
+        "respiration_rmse_bpm": 0.04745464797480759,
+        "heart_rmse_bpm": 0.08205664249939609
+      }
+    ],
+    "depth": [
+      {
+        "layers": 1,
+        "trainable_phases": 36,
+        "insertion_loss_db": 0.5,
+        "spatial_sinr_db": 5.344529409875918,
+        "respiration_rmse_bpm": 0.05284840588642927,
+        "heart_rmse_bpm": 0.145121952265596
+      },
+      {
+        "layers": 2,
+        "trainable_phases": 72,
+        "insertion_loss_db": 1.0,
+        "spatial_sinr_db": 8.291740024701587,
+        "respiration_rmse_bpm": 0.04715923916088014,
+        "heart_rmse_bpm": 0.08400831283956732
+      },
+      {
+        "layers": 3,
+        "trainable_phases": 108,
+        "insertion_loss_db": 1.5,
+        "spatial_sinr_db": 8.078105637676265,
+        "respiration_rmse_bpm": 0.0477465900927325,
+        "heart_rmse_bpm": 0.09165493497478072
+      },
+      {
+        "layers": 4,
+        "trainable_phases": 144,
+        "insertion_loss_db": 2.0,
+        "spatial_sinr_db": 7.721574228474554,
+        "respiration_rmse_bpm": 0.04841842537877832,
+        "heart_rmse_bpm": 0.10517066914846301
+      },
+      {
+        "layers": 5,
+        "trainable_phases": 180,
+        "insertion_loss_db": 2.5,
+        "spatial_sinr_db": 7.352006093382317,
+        "respiration_rmse_bpm": 0.04790514732702047,
+        "heart_rmse_bpm": 0.11091866132527722
+      }
+    ],
+    "bmi_mismatch": [
+      {
+        "bmi_bias": -8.0,
+        "spatial_sinr_db": 6.255148548354082,
+        "respiration_rmse_bpm": 0.04740847871289142,
+        "heart_rmse_bpm": 0.14742347498264774,
+        "sinr_loss_vs_unbiased_db": 2.410131168264771
+      },
+      {
+        "bmi_bias": -4.0,
+        "spatial_sinr_db": 7.75433781884894,
+        "respiration_rmse_bpm": 0.054303213291373074,
+        "heart_rmse_bpm": 0.11360747255559434,
+        "sinr_loss_vs_unbiased_db": 0.9109418977699129
+      },
+      {
+        "bmi_bias": 0.0,
+        "spatial_sinr_db": 8.665279716618853,
+        "respiration_rmse_bpm": 0.047801724413099086,
+        "heart_rmse_bpm": 0.09413584514000609,
+        "sinr_loss_vs_unbiased_db": 0.0
+      },
+      {
+        "bmi_bias": 4.0,
+        "spatial_sinr_db": 8.107629993227976,
+        "respiration_rmse_bpm": 0.050185405695964094,
+        "heart_rmse_bpm": 0.11493547834195657,
+        "sinr_loss_vs_unbiased_db": 0.5576497233908775
+      },
+      {
+        "bmi_bias": 8.0,
+        "spatial_sinr_db": 7.291919726289978,
+        "respiration_rmse_bpm": 0.06640295898458896,
+        "heart_rmse_bpm": 5.891439412427572,
+        "sinr_loss_vs_unbiased_db": 1.3733599903288747
+      }
+    ]
+  }
+}
